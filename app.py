@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import os
+print(os.listdir())
 
 # Charger les objets
 model = pickle.load(open("model.pkl", "rb"))
